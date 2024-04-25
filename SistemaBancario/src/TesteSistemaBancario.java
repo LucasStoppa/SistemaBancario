@@ -39,7 +39,7 @@ public class TesteSistemaBancario {
         Banco banco = new Banco(loja1, loja2);
 
         // Criando clientes e iniciando suas threads
-        Cliente[] clientes = new Cliente[3];
+        Cliente[] clientes = new Cliente[5];
         for (int i = 0; i < clientes.length; i++) {
             clientes[i] = new Cliente(new Conta(1000), banco);
 
